@@ -1,0 +1,6 @@
+.stats-card{
+    transition: scale 500ms;
+}
+.stats-card:hover{
+   scale: 1.05;
+}

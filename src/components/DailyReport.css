@@ -1,0 +1,34 @@
+#daily-report-stats {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+
+#daily-report-stats .card {
+    width: 50%;
+}
+
+@media (min-width:600px) {
+    #daily-report-stats {
+        width: min(80vw, 400px);
+    }
+
+    #daily-report-stats .card {
+        width: 100%;
+    }
+}
+
+
+@media (min-width:800px) {
+    #daily-report-stats {
+        width: 600px;
+    }
+
+    #daily-report-stats .card {
+        width: 50%;
+    }
+}
+
+

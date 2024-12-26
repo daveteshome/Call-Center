@@ -1,0 +1,27 @@
+/* Add these styles to your CSS file */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px; /* Adjust height as needed */
+    width: 900px; 
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-title,
+  .card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .card-content {
+    flex-grow: 1; /* Allows content to expand to fill available space */
+  }
+  
